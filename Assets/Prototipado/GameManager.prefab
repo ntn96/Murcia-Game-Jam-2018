@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1334584633662196}
+  m_IsPrefabParent: 1
+--- !u!1 &1334584633662196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4181446203644114}
+  - component: {fileID: 114014120046652276}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4181446203644114
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1334584633662196}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5418647, y: -7.4940443, z: -0.90625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114014120046652276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1334584633662196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294d680d6c2bc4f30815fb9693dd0141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  initialMonstersList:
+  - {fileID: 114518770033505250, guid: f62ec5253eb68f54fb4e5488ad8a4d5f, type: 2}
+  - {fileID: 114518770033505250, guid: f62ec5253eb68f54fb4e5488ad8a4d5f, type: 2}
+  - {fileID: 114518770033505250, guid: f62ec5253eb68f54fb4e5488ad8a4d5f, type: 2}
+  - {fileID: 114518770033505250, guid: f62ec5253eb68f54fb4e5488ad8a4d5f, type: 2}
+  - {fileID: 114518770033505250, guid: f62ec5253eb68f54fb4e5488ad8a4d5f, type: 2}
+  - {fileID: 114518770033505250, guid: f62ec5253eb68f54fb4e5488ad8a4d5f, type: 2}
+  - {fileID: 114518770033505250, guid: f62ec5253eb68f54fb4e5488ad8a4d5f, type: 2}
+  finishedMonsterList: []
+  totalMonster: 0
+  monsterPrefab: {fileID: 1809908154362374, guid: f62ec5253eb68f54fb4e5488ad8a4d5f,
+    type: 2}
